@@ -1,0 +1,33 @@
+How to start Cypress
+
+1. Open file package.json
+2. change the scripts line to:
+"scripts": {
+    "test": "cypress open"
+  },
+
+3. Go to folder  C:\Programming\CypressAutomation\node_modules\.bin
+4. And run command: npm run test
+
+
+How to run a test from CMD
+
+1. Go to the project folder and run C:\Programming\CypressAutomation\
+
+2. This command will run all the test cases under example folder this will use the electron in a headless run
+3. Command: node_modules\.bin\cypress run
+
+4. This command will run and will use the electron browser to run the TCs
+5. Command: node_modules\.bin\cypress run --headed
+
+6. This command will run and will run a specific test in electron headless  
+7. Command: node_modules\.bin\cypress run --spec "cypress\integration\examples\FirstTest.js"
+
+8. This command will run and will run a specific test in electron browser   
+9. Command: node_modules\.bin\cypress run --headed --spec "cypress\integration\examples\FirstTest.js"
+
+10. This command will run and will run a specific test in chrome browser  
+11. Command:  node_modules\.bin\cypress run --browser chrome --spec "cypress\integration\examples\FirstTest.js"
+
+12. This command will run all the test cases under example folder and will run all the tests in chrome browser
+13.  node_modules\.bin\cypress run --browser chrome
