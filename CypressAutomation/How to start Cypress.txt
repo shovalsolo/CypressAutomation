@@ -6,11 +6,12 @@ How to start Cypress
     "test": "cypress open"
   },
 
-3. Go to folder  C:\Programming\CypressAutomation\node_modules\.bin
+3. Go to folder  C:\Users\Solomon\git\CypressAutomation\CypressAutomation\node_modules\.bin
 4. And run command: npm run test
 
 
-How to run a test from CMD
+
+----How to run a test from CMD----
 
 1. Go to the project folder and run C:\Programming\CypressAutomation\
 
@@ -31,3 +32,17 @@ How to run a test from CMD
 
 12. This command will run all the test cases under example folder and will run all the tests in chrome browser
 13.  node_modules\.bin\cypress run --browser chrome
+
+
+
+
+----How to use the Todo app----
+
+1. Go to the folder:
+C:\Users\Solomon\git\CypressAutomation\CypressAutomation\cypress-tutorial-build-todo-starter-master
+
+2. Run the following command:
+npm run dev
+
+3. Open browser with URL:
+http://localhost:3030
