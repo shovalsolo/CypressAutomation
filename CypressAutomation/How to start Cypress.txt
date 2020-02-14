@@ -34,6 +34,21 @@ How to start Cypress
 13.  node_modules\.bin\cypress run --browser chrome
 
 
+----Most used patterns selectors:----
+ 
+<input id="txtUsername">
+
+Element name: - input - is the Element name (tag)
+Attribute name: - ID - is the Attribute name
+Element name: - txtUsername - is the Attribute value 
+
+Get by ID:						cy.get('#user-name').type('standard_user')
+
+Get by ID:						cy.get('#user-name').type('standard_user')
+
+Get by ID:						cy.get('#user-name').type('standard_user')
+
+Get by ID:						cy.get('#user-name').type('standard_user')
 
 
 ----How to use the Todo app----
