@@ -40,16 +40,33 @@ How to start Cypress
 
 Element name: - input - is the Element name (tag)
 Attribute name: - ID - is the Attribute name
-Element name: - txtUsername - is the Attribute value 
+Attribute value : - txtUsername - is the Attribute value 
 
-Get by ID:						cy.get('#user-name').type('standard_user')
+Get by ID:							cy.get('#user-name') 						- using the #
 
-Get by ID:						cy.get('#user-name').type('standard_user')
+Get by class:						cy.get('.form_input') 						- using the .
 
-Get by ID:						cy.get('#user-name').type('standard_user')
+Get by Element name + attribute:	cy.get('input[data-test=password]') 		- using the Element name and the Attribute name with the Attribute value
 
-Get by ID:						cy.get('#user-name').type('standard_user')
+Get by Attribute name + value:		cy.get('[data-test=password]') 				- using the Attribute name with the Attribute value
 
+Get by multiple Attributes: 		cy.get('[placeholder=Username][type=text]') - using 2 Attribute name with the Attribute value
+
+Get by tag name/ID/Class:			cy.get('input#user-name') or cy.get('input#.btn_action')
+
+Get by parent>child:				cy.get('form > #user-name') 				- using the parent of the element form > input #user-name
+
+Get by partial Attribute contains*: cy.get('#user-name')
+
+Get by partial Attribute starts^:	cy.get('#user-name')
+
+Get by partial Attribute ends$:		cy.get('#user-name')
+
+Get by index:
+
+Get by tagname:
+
+Get by selector:
 
 ----How to use the Todo app----
 

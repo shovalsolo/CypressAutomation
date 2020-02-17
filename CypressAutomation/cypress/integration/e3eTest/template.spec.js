@@ -2,7 +2,7 @@
 
 describe('Template demo', function(){
 
-	it('Login to page', function(){
+	it('Login to page demo', function(){
 		
 		cy.visit('https://www.saucedemo.com/index.html')					//Will open the link from cypress.json baseUrl
 		cy.get('').type('')													//Will search an id and will send keys
