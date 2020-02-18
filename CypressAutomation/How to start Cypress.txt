@@ -88,6 +88,19 @@ On exiting DOM element
 11. window()
 12. within()
 
+
+----Cypress commands used action commands----
+1. .click() - click a DOM element
+2. .type() - Sends text to element 
+3. .text() - Gets the text of the element
+4. .check() .uncheck() - check and uncheck checkbox and radio button
+5. .select() - selects an argument 
+6. .dblclick() - dblclick a DOM element
+7. .rightclick() - rightclick a DOM element
+8. .clear() - clears the value of an input or textarea
+9. .title() - 
+10 .url() -
+
 ----How to use the Todo app----
 
 1. Go to the folder:
