@@ -56,17 +56,20 @@ Get by tag name/ID/Class:			cy.get('input#user-name') or cy.get('input#.btn_acti
 
 Get by parent>child:				cy.get('form > #user-name') 				- using the parent of the element form > input #user-name
 
-Get by partial Attribute contains*: cy.get('#user-name')
+Get by partial Attribute contains*: cy.get('.[value*=log]')						- Using * to find contains value login
 
-Get by partial Attribute starts^:	cy.get('#user-name')
+Get by partial Attribute starts^:	cy.get('.[value^=log]')						- Using ^ to find start with value login
 
-Get by partial Attribute ends$:		cy.get('#user-name')
+Get by partial Attribute ends$:		cy.get('.[value&=in]')						- Using $ to find ends with value login
 
-Get by index:
+Get by qe index:					cy.get('.inventory:eq(0)')					- Using eq and the index location of what we are looking for in an array 
 
-Get by tagname:
+Get by tagname:						cy.get('h2')								- Using the HTML tag
 
-Get by selector:
+Get by multiple selectors:			cy.get('.form_input, #user-name')			- Using 2 or more Attribute values to find the element separating with , between the Attribute values
+
+
+
 
 ----How to use the Todo app----
 
