@@ -68,8 +68,25 @@ Get by tagname:						cy.get('h2')								- Using the HTML tag
 
 Get by multiple selectors:			cy.get('.form_input, #user-name')			- Using 2 or more Attribute values to find the element separating with , between the Attribute values
 
+----cy commands to find elements----
 
+1. cy.get()
+2. cy.contains()
+3. cy.root()
 
+On exiting DOM element
+1. contains()
+2. find()
+3. filter()
+4. not()
+5. children()
+6. first() , last()
+7. next() , nextUntil()
+8. parent() , parents() , parentsUntil()
+9. prev() , prevAll() , prevUntil()
+10. siblings()
+11. window()
+12. within()
 
 ----How to use the Todo app----
 
