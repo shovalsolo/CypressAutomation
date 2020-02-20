@@ -1,6 +1,6 @@
 //This is a template file 
 
-describe('Template demo', function(){
+describe('Dropdown demo', function(){
 	
 	beforeEach(function(){										//This will run before each test
 		cy.visit('https://the-internet.herokuapp.com/dropdown')

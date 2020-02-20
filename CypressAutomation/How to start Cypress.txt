@@ -48,7 +48,7 @@ Get by class:						cy.get('.form_input') 						- using the .
 
 Get by Element name + attribute:	cy.get('input[data-test=password]') 		- using the Element name and the Attribute name with the Attribute value
 
-Get by type:						cy.get('[;checkbox]')						- using the ; is referring to type Attribute name
+Get by type:						cy.get('[:checkbox]')						- using the : is referring to type Attribute name
 
 Get by Attribute name + value:		cy.get('[data-test=password]') 				- using the Attribute name with the Attribute value
 
