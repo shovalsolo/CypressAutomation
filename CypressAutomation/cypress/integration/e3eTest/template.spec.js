@@ -1,8 +1,12 @@
 //This is a template file 
 
-describe('Template demo', function(){
+describe('Handeling alerts demo', function(){
+	
+	this.beforeEach(function(){
+		
+	})
 
-	it('Login to page demo', function(){
+	it('Java script alert', function(){
 		
 		cy.visit('https://www.saucedemo.com/index.html')					//Will open the link from cypress.json baseUrl
 		cy.get('').type('')													//Will search an id and will send keys
