@@ -1,4 +1,4 @@
-//This is a template file 
+//This is a demo for alert messaga handle
 
 describe('Handeling alerts demo', function(){
 	
