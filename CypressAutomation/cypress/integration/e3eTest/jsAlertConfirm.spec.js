@@ -1,4 +1,4 @@
-//This is a demo for alert messaga handle
+//This is a demo for alert confirmation messaga handle
 
 describe('Handeling alerts demo', function(){
 	
@@ -10,7 +10,7 @@ describe('Handeling alerts demo', function(){
 		cy.contains('Click for JS Confirm').click()			//Clicking on the button to trigger the Confirm alert by default clicking the OK button
 	})
 	
-	it.only('Confirm type alert click Cancel', function(){
+	it.only('Confirm type alert click Cancel', function(){	//Choosing false is that is the cancel button in the confirmation message
 		cy.on('confirm', function(confirmText){
 			return false
 		})
